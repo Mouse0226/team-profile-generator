@@ -14,7 +14,6 @@ This application is licensed under: <br />
 - [Tests](#tests)
 - [Questions](#questions)
 - [Demo](#demo)
-- [Images](#images)
 
 ## Installation
 To install this application, this remote repository will need to be cloned into your local repository.  If you haven't installed Node.js on your local machine you will need to do so via the following link: https://nodejs.org/en/download/
@@ -23,4 +22,10 @@ To install this application, this remote repository will need to be cloned into 
 The application can be launched from the CLI using the command 'node index.js'.  Ensure that your command line is indexed to the directory where the cloned repository exists.
 
 ## Tests
-Jest tests are available to execute from the CLI.  From the command line, enter 'npm test' to execute all tests present in '__tests__' folder
+Jest tests are available to execute from the CLI.  From the command line, enter 'npm test' to execute all tests present in tests folder
+
+## Questions
+Please refer to my personal GitHub with any questions: https://github.com/Mouse0226
+
+## Demo
+Video demonstration can be viewed at the following link: https://drive.google.com/file/d/1qH55ZJPhbYHftdgvBeo57A8GstTxnO9U/view
