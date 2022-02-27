@@ -14,6 +14,7 @@ This application is licensed under: <br />
 - [Tests](#tests)
 - [Questions](#questions)
 - [Demo](#demo)
+- [Images](#images)
 
 ## Installation
 To install this application, this remote repository will need to be cloned into your local repository.  If you haven't installed Node.js on your local machine you will need to do so via the following link: https://nodejs.org/en/download/
@@ -29,3 +30,8 @@ Please refer to my personal GitHub with any questions: https://github.com/Mouse0
 
 ## Demo
 Video demonstration can be viewed at the following link: https://drive.google.com/file/d/1qH55ZJPhbYHftdgvBeo57A8GstTxnO9U/view
+
+## Images
+![image](https://user-images.githubusercontent.com/93630706/155897618-9d1288ab-189d-4ae6-95d8-f1e5181515c5.png)
+![image](https://user-images.githubusercontent.com/93630706/155897620-d3f8b827-633f-487a-b1c8-bb533ecd9631.png)
+![image](https://user-images.githubusercontent.com/93630706/155897651-2c0ca28c-a60b-407e-ac2b-de9317873884.png)
