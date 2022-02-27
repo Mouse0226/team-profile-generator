@@ -1,11 +1,33 @@
 
-const generateEmployees = EmployeesArr => {
-
-}
+function generateEmployees(employeesArr) {
+    let variableItem;
+    let employeeCards = [];
+    for (const employeesObj of employeesArr) {
+        if (employeesObj.getRole() === 'Manager') {
+            variableItem = `<li class="list-group-item">Office Number: ${employeesObj.officeNumber}</li>`;
+        } else if (employeesObj.getRole() === 'Engineer') {
+            variableItem = `<li class="list-group-item">GitHub: <a href="https://github.com/${employeesObj.github}" target="_blank">${employeesObj.github}</a></li>`;
+        } else {
+            variableItem = `<li class="list-group-item">School: ${employeesObj.school}</li>`;
+        }
+        employeeCards.push(`
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">${employeesObj.name}</h5>
+                    <p class="card-text">${employeesObj.getRole()}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">ID: ${employeesObj.id}</li>
+                    <li class="list-group-item">Email: <a href="mailto:${employeesObj.email}">${employeesObj.email}</a></li>
+                    ${variableItem}
+                </ul>
+            </div>
+        `);
+    }
+    return employeeCards.join('');
+};
 
 module.exports = templateData => {
-    // input from app will go here
-
     return `
         <!DOCTYPE html>
         <html lang="en">
@@ -24,11 +46,13 @@ module.exports = templateData => {
         <body>
             <header>
                 <div class="container flex-row align-center">
-                    <h1 class="page-title">My Team</h1>
+                    <h1 class="page-title p-4">My Team</h1>
                 </div>
             </header>
             <main class="container">
-                ${generateEmployees()}
+                <div class="row">
+                    ${generateEmployees(templateData)}
+                </div>
             </main>
         </body>
         </html>

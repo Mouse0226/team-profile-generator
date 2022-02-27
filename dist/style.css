@@ -1,0 +1,24 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.page-title {
+    background-color: rgb(235, 85, 85);
+    color: white;
+    text-align: center;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card-body {
+    background-color: rgb(83, 83, 233);
+    color: white;
+    font-weight: bold;
+}
