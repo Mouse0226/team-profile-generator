@@ -23,4 +23,4 @@ To install this application, this remote repository will need to be cloned into 
 The application can be launched from the CLI using the command 'node index.js'.  Ensure that your command line is indexed to the directory where the cloned repository exists.
 
 ## Tests
-Jest tests are available to execute from the CLI.  From the command line, enter 'npm test' to execute all tests present in __tests__ folder
+Jest tests are available to execute from the CLI.  From the command line, enter 'npm test' to execute all tests present in '__tests__' folder
